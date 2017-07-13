@@ -1,4 +1,4 @@
-baseurl: /newbeex.github.io
+baseurl: /blog
 markdown: kramdown
 paginate: 5
 
