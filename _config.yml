@@ -9,10 +9,7 @@ baseurl: '/'
 author:
   name: 'stardust'
   email: newbeex@qq.com
-  twitter_username: newbeex
-  facebook_username: newbeex
   github_username:  newbeex
-  linkedin_username:  newbeex
 
 # 为网站中的所有页面和帖子添加默认布局
 defaults:
@@ -36,7 +33,7 @@ kramdown:
   hard_wrap: false
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    line_numbers: true
+    line_numbers: false
     css_class: 'highlight'
 
 
