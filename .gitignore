@@ -1,2 +1,7 @@
-node_modules
-bower_components
+_site
+_drafts
+.sass-cache
+.jekyll-metadata
+*.sublime-project
+*.sublime-workspace
+.DS_Store

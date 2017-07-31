@@ -1,0 +1,47 @@
+# Site settings
+title: stardust's blog
+description: '摇号大法好!'
+url: 'https://newbeex.github.io/'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'stardust'
+  email: newbeex@qq.com
+  twitter_username: newbeex
+  facebook_username: newbeex
+  github_username:  newbeex
+  linkedin_username:  newbeex
+
+# 为网站中的所有页面和帖子添加默认布局
+defaults:
+  -
+    scope:
+      path: '' # an empty string here means all files in the project
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 5
+permalink: /:year/:title/
+markdown: kramdown
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: true
+    css_class: 'highlight'
+
+
+# Gems
+gems:
+  - jekyll-paginate
+
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
