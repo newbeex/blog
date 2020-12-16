@@ -12,7 +12,7 @@ Git和其他版本控制系统如SVN的一个不同之处就是有暂存区的�
 
 Git的版本库里存了很多东西，其中最重要的就是称为`stage`（或者叫`index`）的暂存区，还有Git为我们自动创建的第一个分支`master`，以及指向`master`的一个指针叫`HEAD`。
 
-![GIT工作区和版本库](https://www.miaoyueyue.com/wp-content/uploads/2014/03/0-1.jpg)
+![GIT工作区和版本库](https://static.liaoxuefeng.com/files/attachments/919020037470528/0)
 
 
 ## 创建仓库
